@@ -3,7 +3,6 @@
   slug: "math-foundations",
   name: "Math Foundations for ML",
   semester: 1,
-  handout: "semesters/sem-1/math-foundations/handout.pdf",
   desc: "Linear algebra, matrix decompositions, vector calculus, multivariate Taylor series, gradient descent (incl. SGD/Adam family), constrained/convex optimization, dimensionality reduction (PCA), and SVM optimization.",
   textbooks: [
     "Deisenroth, Faisal, Ong — Mathematics for Machine Learning (Cambridge, 2020) — FREE PDF: mml-book.com",

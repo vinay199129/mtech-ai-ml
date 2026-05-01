@@ -3,7 +3,6 @@
   slug: "deep-neural-networks",
   name: "Deep Neural Networks",
   semester: 1,
-  handout: "semesters/sem-1/deep-neural-networks/handout.docx",
   desc: "From perceptrons to transformers: linear NNs, MLPs with backprop, CNNs (LeNet, AlexNet, VGG, Inception, ResNet) + transfer learning, RNN/LSTM/GRU/BiLSTM, attention, full Transformer (NLP & vision), modern optimization (SGD→Adam family), and regularization (dropout, batch/layer norm, weight decay).",
   textbooks: [
     "Zhang, Lipton, Li, Smola — Dive into Deep Learning (d2l.ai, FREE & interactive)",

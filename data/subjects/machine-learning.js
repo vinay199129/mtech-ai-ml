@@ -3,7 +3,6 @@
   slug: "machine-learning",
   name: "Machine Learning",
   semester: 1,
-  handout: "semesters/sem-1/machine-learning/handout.docx",
   desc: "Foundations of ML: workflow & data prep; linear/logistic regression; decision trees; instance-based learning (kNN, LWR, RBF); SVMs; Bayesian learning (MLE/MAP, Naïve Bayes); ensembles (bagging, RF, boosting, AdaBoost, GBM, XGBoost); unsupervised learning (k-means, GMM/EM); model evaluation, fairness, interpretability.",
   textbooks: [
     "Tom Mitchell — Machine Learning (McGraw-Hill, 1997)",

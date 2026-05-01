@@ -3,7 +3,6 @@
   slug: "statistical-methods",
   name: "Statistical Methods",
   semester: 1,
-  handout: "semesters/sem-1/statistical-methods/handout.docx",
   desc: "Probability fundamentals, conditional probability and Bayes, random variables and distributions, hypothesis testing and confidence intervals, MLE, ANOVA, regression, time series (AR/MA/ARIMA/SARIMA/VAR), and Gaussian Mixture Models with EM.",
   textbooks: [
     "Kaptein et al. — Statistics for Data Scientists (Springer 2022)",
