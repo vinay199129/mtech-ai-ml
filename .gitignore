@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project tracking (local-only state)
+.copilot-tracking/
+
+# Institutional course handouts (kept locally, not redistributed)
+semesters/

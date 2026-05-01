@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>M.Tech AI/ML — Study Hub</title>
+<meta name="description" content="A free, open study companion for the M.Tech AI &amp; Machine Learning curriculum, evolving over 4 semesters — Semester 1 available now (4 subjects, ~54 modules, ~140 curated free resources)." />
+
+<!-- FR-007 favicon -->
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+<!-- FR-008 OpenGraph + Twitter card -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="M.Tech AI/ML — Study Hub" />
+<meta property="og:description" content="Open study notes, curated free resources, and quick-revise cards for the M.Tech AI/ML curriculum. Semester 1 available now." />
+<meta property="og:image" content="assets/og-card.svg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="M.Tech AI/ML — Study Hub" />
+<meta name="twitter:description" content="Open study notes, curated free resources, and quick-revise cards for the M.Tech AI/ML curriculum. Semester 1 available now." />
+<meta name="twitter:image" content="assets/og-card.svg" />
+
+<link rel="stylesheet" href="assets/styles.css" />
+
+<!-- FR-009 cookieless analytics (configure window.SITE_GC_URL in assets/goatcounter.js) -->
+<script src="assets/goatcounter.js"></script>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav-row">
+    <a class="brand" href="./">
+      <span class="brand-mark">AI</span>
+      <span>M.Tech AI/ML — Study Hub</span>
+    </a>
+    <nav class="primary-nav">
+      <a href="#semesters-root">Semesters</a>
+      <a href="https://github.com/vinay199129/mtech-ai-ml" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero hero-compact">
+  <div class="container">
+    <span class="hero-badge">Open Study Notes · M.Tech AI &amp; ML</span>
+    <h1>From zero → exam-ready</h1>
+    <p class="hero-sub">
+      A free, open study companion for the AI &amp; Machine Learning Master's curriculum —
+      module-by-module notes, hand-picked free resources, and quick-revise cards.
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#semesters-root">Browse subjects</a>
+      <a class="btn btn-secondary" href="courses/math-foundations.html">Start with Math</a>
+    </div>
+  </div>
+</section>
+
+<main id="main-content" tabindex="-1">
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Curriculum</h2>
+      <p class="section-sub">
+        Browse subjects by semester. Each subject opens a structured study plan with sub-topics per module
+        and curated free resources (videos, textbook chapters, articles, docs). Many modules also include a
+        <em>Quick Revise</em> card — a self-contained, exam-ready walkthrough with worked examples.
+      </p>
+      <div id="semesters-root"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Semester 1</h4>
+      <ul>
+        <li><a href="courses/math-foundations.html">Math Foundations</a></li>
+        <li><a href="courses/statistical-methods.html">Statistical Methods</a></li>
+        <li><a href="courses/machine-learning.html">Machine Learning</a></li>
+        <li><a href="courses/deep-neural-networks.html">Deep Neural Networks</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Study Format</h4>
+      <ul>
+        <li>Module-level notes</li>
+        <li>Quick-revise cards</li>
+        <li>Curated free resources</li>
+        <li>Worked examples</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Roadmap</h4>
+      <ul>
+        <li>Semester 1 — available</li>
+        <li>Semester 2 — planned</li>
+        <li>Semester 3 — not started</li>
+        <li>Semester 4 — not started</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contribute &amp; feedback</h4>
+      <ul>
+        <li><a href="CONTRIBUTING.md">How to contribute</a></li>
+        <li><a href="https://github.com/vinay199129/mtech-ai-ml/issues" target="_blank" rel="noopener">Report an issue</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container copyright">
+    © <span id="year"></span> M.Tech AI/ML Study Hub — open notes for graduate AI/ML self-study.
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+<script src="data/subjects/math-foundations.js"></script>
+<script src="data/subjects/statistical-methods.js"></script>
+<script src="data/subjects/machine-learning.js"></script>
+<script src="data/subjects/deep-neural-networks.js"></script>
+<script src="assets/index-page.js"></script>
+
+</body>
+</html>
